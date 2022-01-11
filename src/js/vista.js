@@ -1,11 +1,11 @@
 /**
-	vista.js Clase superior de las vistas de la aplicación.
+	vista.js Cromos superior de las vistas de la aplicación.
 	@author Miguel Jaque <mjaque@migueljaque.com>
 	@license GPL-3.0-or-later
 */
 
 /**
-	Clase superior de las vistas de la aplicación..
+	Cromos superior de las vistas de la aplicación..
 */
 export class Vista {
   /**

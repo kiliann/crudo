@@ -1,13 +1,13 @@
 /**
-	clase.js Clase de negocio que representa un objeto.
+	cromos.js Cromos de negocio que representa un objeto.
 	@author Miguel Jaque <mjaque@migueljaque.com>
 	@license GPL-3.0-or-later
 */
 
 /**
-	Clase de negocio que representa un objeto.
+	Cromos de negocio que representa un objeto.
 */
-export class Clase{
+export class Cromos {
 	//Atributos estáticos
 	static ESTADO = {
 		Estado1: Symbol(),

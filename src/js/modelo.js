@@ -79,11 +79,11 @@ export class Modelo{
 		return transaccion.objectStore(this.#OS1)	//OS para la transacción
 	}
 	/**	Inserta un objeto en la base de datos
-		@param {Clase} objeto - objeto a insertar.
+		@param {cromos} objeto - objeto a insertar.
 		@param {Function} callback - Función de callback que se llamará al completar la operación.
 	**/
-	insertar(objeto, callback){
-		let peticion = this.getTransaccionOS('readwrite').add(objeto)
+	insertar(cromos, callback){
+		let peticion = this.getTransaccionOS('readwrite').add(cromos)
 		peticion.onsuccess = callback
 	}
 }
