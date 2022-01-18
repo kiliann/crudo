@@ -101,5 +101,6 @@ export class Vista {
 	*/
   crearHijos() {
 		//Este método debe ser sobreescrito por la clase derivada.
+
 	}
 }
